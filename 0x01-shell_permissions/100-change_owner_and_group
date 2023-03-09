@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -hR vincent stuff
+chmod -hR vincent:stuff
