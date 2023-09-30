@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Function to gracefully stop the process
+stop_process() {
+  echo "Terminated"
+  exit 0
+}
+
+# Set up a trap to catch the SIGUSR1 signal and stop the process
+trap 'stop_process' SIGUSR1
+
+# Main loop
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done

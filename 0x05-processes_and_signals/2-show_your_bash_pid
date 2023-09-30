@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Ignore the shellcheck warning for this line
+# shellcheck disable=SC2009
+ps aux | grep -E 'bash' | grep -v "$0" | grep -v 'grep'
