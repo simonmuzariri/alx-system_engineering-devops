@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash/env bash
 
 # Define column headers
 printf "%-10s %-5s %-5s %-8s %-8s %-5s %-10s %-5s %-10s\n" "USER" "PID" "%CPU" "%MEM" "VSZ" "RSS" "TTY" "STAT" "COMMAND"

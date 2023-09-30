@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash/env bash
 
 # Ignore the shellcheck warning for this line
 # shellcheck disable=SC2009
